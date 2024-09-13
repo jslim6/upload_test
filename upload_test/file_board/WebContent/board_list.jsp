@@ -18,7 +18,7 @@
       <%
       try
       {
-        // JDBC 드라이버 연결
+        // JDBC  드라이버 연결
         Class.forName("com.mysql.jdbc.Driver");
         String db_address = "jdbc:mysql://localhost:3306/file_board";
         String db_username = "root";
